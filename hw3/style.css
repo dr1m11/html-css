@@ -1,0 +1,148 @@
+body {
+    padding: 0;
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.wrapper {
+    height: 700px;
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    height: 40px;
+}
+
+.header__left {
+    max-width: 137px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.header__text1 {
+    color: #000;
+    font-family: "Gilroy-Bold", serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header__text2 {
+    color: #F25822;
+    font-family: "Gilroy-Bold", serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header__right {
+    max-width: 533px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header__right > a, .select__features {
+    cursor: pointer;
+}
+
+.select__features {
+    border: none;
+    outline: none;
+    font-family: 'Gilroy-Medium', sans-serif;
+}
+
+/* Main */
+main {
+    margin-top: 84px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__left {
+    display: flex;
+    flex-direction: column;
+}
+
+.main__heading {
+    margin: 0 0 17px 0;
+    color: #000;
+    font-family: Gilroy-Bold, serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 522px;
+    height: 222px;
+}
+
+.main__paragraph {
+    margin: 0 0 37px 0;
+    color: #888;
+    font-family: Gilroy-Medium, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 466px;
+    height: 48px;
+}
+
+.main__btns {
+    width: 302px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn__start {
+    border: none;
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0 rgba(242, 88, 34, 0.20);
+    color: #FFF;
+    font-family: Gilroy-Bold, serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.btn__watch:disabled {
+    border: none;
+    background: none;
+    color: #AAA;
+    font-family: Gilroy-Bold, serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0;
+}
